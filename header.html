@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+		<link rel="stylesheet" type="text/css" href="header.css">											
+
+</head>
+<body>
+<header >
+		<section class="head">
+		
+			<section class="gestion">
+			<div class="logo"><span class="log">G</span>ESTION <span class="log">D</span>ES <span class="log">A</span>BSENCE </div>
+			</section>
+		
+			<section class="navbar">
+				<nav>
+				<ul >	
+					<li class="list"><a href="#1">Home</a></li>
+					<li class="list"><a href="">About</a></li>
+					<li class="list"><a href="">Service</a></li>
+					<li class="list"><a href="">Contact</a></li>
+					<li class="list"><span id="user"></span></li>
+				
+				</ul>
+			
+				</section>	
+				<div class="animation">
+				
+				<c:if test="${!empty sessionScope.prof}">
+  
+               Welcome ${prof.firstname} ${prof.lastname}
+              </c:if></div>
+				</nav>
+		
+			</section>
+		</header>
+		
+		
+</body>
+</html>

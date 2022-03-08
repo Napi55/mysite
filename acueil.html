@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>acueil</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="acueil.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+	</style>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+	</style>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+	</style>
+	<link rel="stylesheet" href="creerCompte.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<title></title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Mukta:wght@300;400;600;700;800&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<!--Header-->
+	<header >
+		<section class="head">
+		
+			<section class="gestion">
+			<div class="logo"><span class="log">G</span>ESTION <span class="log">D</span>ES <span class="log">A</span>BSENCE </div>
+			</section>
+		
+			<section class="navbar">
+				<nav>
+				<ul >	
+					<li class="list"><a href="#1">Home</a></li>
+					<li class="list"><a href="">About</a></li>
+					<li class="list"><a href="">Service</a></li>
+					<li class="list"><a href="">Contact</a></li>
+					<li class="list"><span id="user"></span></li>
+				</ul>
+				<div class="animation"></div>
+				</section>	
+				</nav>
+		
+			</section>
+		</header>
+		<br>
+		<br>
+		
+<!--mianbody-->
+		<div id="1"></div>
+		<section class="mainbody">
+			<section class="image1">
+				<div class="image"></div>
+			</section>
+		
+			<section class="text">
+	<div id="text">
+	<h1><span id="welcom">Welcome in</span><div id="title" ><span class="log">G</span>ESTION <span class="log">D</span>ES <span class="log">A</span>BSENCE </div></h1>
+
+	<p>Attendance management site at the College of Modern Technology</p>
+	<button class="display buttun" type="submit" name="btn" value="display table">The list of Student</button>
+	<br>
+	<button class="Add buttun" type="submit" name="btn" value="display table">Add Student</button>
+	<br>
+	<button class="Delete buttun" type="submit" name="btn" value="display table">Delete Student</button>
+	<br> 
+	</div>
+
+				</section>
+
+			</section>
+
+			<br>
+			<br>
+
+<section class="table activetable">
+	
+<h2>The list of Student</h2>
+    
+
+    <table>
+        <tr id="header">
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Age</th>
+            <th>Country</th>
+            <th>nombre of Absences</th>
+            <th>Gender</th>
+
+        </tr>
+        <tr>
+            <td>Nabil</td>
+            <td>Boukerzaza </td>
+            <td>25 </td>
+            <td>DZ </td>
+<td>0</td>
+            <td>Male </td>
+
+        </tr>
+        <tr>
+            <td>Mahdi </td>
+            <td>Chetih </td>
+            <td>28 </td>
+            <td>DZ </td>
+<td>0</td>
+            <td>Male </td>
+
+        </tr>
+        <tr>
+            <td>Hani </td>
+            <td>Doe </td>
+            <td>26 </td>
+            <td>DZ </td>
+            <td>10</td>
+            <td>Male </td>
+
+<td></td>
+        </tr>
+        <tr>
+            <td>karim </td>
+            <td>Doe </td>
+            <td>21 </td>
+            <td>DZ </td>
+<td>2</td>
+            <td>Male </td>
+
+        </tr>
+        <tr>
+            <td>adam </td>
+            <td>Doe </td>
+            <td>20 </td>
+            <td>DZ</td>
+<td>0</td>
+            <td>Male </td>
+
+        </tr>
+        <tr>
+            <td>arbi </td>
+            <td>Doe </td>
+            <td>20 </td>
+            <td>DZ </td>
+            
+<td>0</td>
+            <td>Male </td>
+
+        </tr>
+
+    </table>
+</section>
+
+	<section class="Ajouter activetable ">
+		<h2>Add Student</h2>
+		<section class="forom">
+				<div id="error"></div>
+				<div class="login-content">
+				<form id="form" method="GET">
+	<br>
+	<br>	
+						<input type="text" id="name"  name="name" placeholder="First Name">
+						<br>
+						<br>
+
+						<input  id="name" type="text" name="name" placeholder="Last Name">
+	<br>
+	<br>
+
+						<input type="text" id="name"  name="name" placeholder="Old">
+	<br>
+	<br>
+						<input type="text" id="name"  name="name" placeholder="Country">
+						<br>
+						<br>
+						<div  class="btn">
+							<input class="input" type="submit" name="btn" value="Add">
+						</div>
+				</form>
+		</section>
+	</section>
+	
+<section class="suprimer activetable">
+	<h2>Delete Student</h2>
+	<section class="forom">
+		<br>
+					<br>	
+
+			<div id="error"></div>
+			<div class="login-content">
+
+
+				<form id="form"  method="GET">
+						
+
+					
+					
+
+
+					<input type="text" id="name"  name="name" placeholder="First Name">
+					<br>
+					<br>
+					
+
+
+
+
+					
+						<input  id="name" type="text" name="name" placeholder="Last Name">
+
+					
+					<br>
+					<br>
+
+<input type="text" id="name"  name="name" placeholder="Old">
+					<br>
+					<br>
+					<input type="text" id="name"  name="name" placeholder="Country">
+					<br>
+					<br>
+					<div  class="btn">
+						<input class="input" type="submit" name="btn" value="Delete">
+
+
+					</div>
+					
+
+
+
+
+				</form>
+				</section>
+
+
+
+</section>
+
+  <footer class="footer">
+     <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Srevice</h4>
+                <ul>
+                    <li><a href="#">Add Student</a></li>
+                    <li><a href="#">Delete Student</a></li>
+                    <li><a href="#">show list of student</a></li>
+                   
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="#">TL:025485145</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+     </div>
+  </footer>
+
+<script src="indxi.js" ></script>
+  <script>
+      const table = document.querySelector(".table");
+      const Ajouter = document.querySelector(".Ajouter");
+      const suprimer = document.querySelector(".suprimer");
+    const display = document.querySelector(".display");
+    const Add = document.querySelector(".Add");
+    const Delete = document.querySelector(".Delete");
+
+display.addEventListener("click", function () {
+  table.classList.toggle("activetable")
+})
+Add.addEventListener("click", function () {
+  Ajouter.classList.toggle("activetable")
+})
+Delete.addEventListener("click", function () {
+  suprimer.classList.toggle("activetable")
+})
+    </script>
+		</body>
+		</html>

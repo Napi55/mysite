@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+.gestion {
+  float: left;
+  position: absolute;
+  left: 80px;
+  top: 5px;
+}
+
+.navbar {
+  position: absolute;
+  left: 600px;
+}
+
+.list {
+  display: inline-block;
+  margin-right: 60px;
+  font-family: Open Sans;
+  color: #1f1f1f;
+}
+
+.log {
+  color: #8989ff;
+  font-size: 55px;
+}
+.logo {
+  font-size: 40px;
+
+  font-family: Road Rage;
+}
+
+.animation {
+  height: 100%;
+
+  z-index: 0;
+  background: #8989ff;
+  width: 300px;
+  border-radius: 8px;
+  position:relative;
+  left: 1200px;
+}
